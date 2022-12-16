@@ -1,0 +1,21 @@
+.card {
+	width: 400px;
+	&__media {
+		border-radius: 8px;
+	}
+	&__content {
+		padding: 14px;
+		background-color: #f7fff3;
+		position: relative;
+	}
+	&__icons {
+		color: var(--black);
+	}
+	&__header {
+		padding: 10px 6px;
+	}
+	&__date {
+		display: inline-block;
+		margin-top: 5px;
+	}
+}
